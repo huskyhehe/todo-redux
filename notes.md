@@ -1,4 +1,45 @@
-Summary
+## Intro
+
+#### 🚀What is Redux?
+
+-   Redux is a JavaScript library for state management in JavaScript-based applications. So applications made in ReactJS, Angular, Vue or even Vanilla JavaScript can use redux to manage their application state.
+
+-   For example, we have a complex website like social media or an e-commerce application. Now when we build those websites, we have to take care of data syncing (especially in complex web design). And here Redux comes into the game.
+
+-   So Redux will store application all data in one place which is **Store** and whenever we want to display any data on any part of our website, we just go to Store and get that data. It's really simple.
+
+#### 🎁Benefits of Redux:
+
+-   Centralize the application's state
+
+-   Redux will make Data-flow transparent
+
+-   Easily debug our application
+
+-   Preserve the page state of the application
+
+#### 🔴Disadvantage of Redux:
+
+-   Complex to write code
+
+-   Have to write a lot of boilerplate code
+
+#### 📌When do we use Redux?
+
+-   When we have a complex website in terms of dataflow like Facebook, amazon and youtube
+
+-   Dataflow is hard to manage
+
+#### 📌When didn't we use Redux?
+
+-   Static data website
+
+-   Small or medium size of applications
+
+➡️Use redux when needed. Don't use any tools or language because they are popular. Just Focus on the problem and think about what the best tool is for solving that problem. That's how programmers think.
+
+
+## Basics of Redux
 
 In this section, we see the basics of Redux and build our first redux application.
 
