@@ -3,6 +3,10 @@ import thunk from "redux-thunk";
 
 import reducer from "./tasks";
 
-const store = legacy_createStore(reducer, applyMiddleware(thunk));
+const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
+
+const store = legacy_createStore(reducer, composeEnhancers(
+    applyMiddleware(thunk)
+));
 
 export default store;
